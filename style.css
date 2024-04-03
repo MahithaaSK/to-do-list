@@ -1,0 +1,75 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(./background.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 10px;
+}
+
+.todo-app {
+  width: 60%;
+  margin: 100px auto 20px;
+  padding: 40px 30px 70px;
+  box-shadow: 5px 5px 25px 5px rgba(158, 145, 145, 0.7);
+}
+
+.todo-app h2 {
+  color: #ede1e4;
+  display: flex;
+  font-size: 30px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ebe4f1;
+  border-radius: 10px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+
+input {
+  flex: 1;
+  border: none;
+  outline: none;
+  color: #000;
+  background: transparent;
+  padding: 10px;
+  font-weight: 14px;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 16px 50px;
+  background: #383231;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+button:hover{
+  background-color: #e19fb4;
+  color: #fff;
+}
+.row {
+      max-width: 400px;
+  }
+
+  button {
+      max-width: 400px;
+      padding: 10px;
+      font-size: 15px;
+  }
